@@ -1,0 +1,44 @@
+#boxBackground{
+    width: 100%;
+    background-image: url('./elshaday.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-position: center center;
+    background-color: black;
+}
+body {
+    margin: 0px;
+}
+.titulo1{
+    text-align: center;
+    margin: 10% 0px 0px 28%;
+    padding: 2px 1px;
+    width: 43%;
+    background-color: #ff00de;
+    border-radius: 17px;
+    color: white;
+}
+input{
+    width: 80%;
+    margin-left: 11%;
+}
+h2{
+    color: #ff00de;
+    text-align: center;
+}
+#jun{
+    text-align: center;
+    color: #ff00de;
+}
+#botao{
+    width: 45%;
+    height: 25px;
+    border: 1px solid #ff00de;
+    margin: 40px 0px 60px 27%;
+}
+label{
+    display: block;
+    margin-bottom: 5%;
+}
+
