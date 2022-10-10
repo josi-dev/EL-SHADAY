@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,300&family=Roboto:wght@300&display=swap');
+</style>
+    <title>Título da página</title>
+</head>
+<body>
+    <div>
+        
+        <dialog id="ajuda">
+            <div id="fecharAjuda"><span onclick="fecharAjuda()">×</span></div>
+         <p>coloque seu nome no curso que deseja.<br>você so pode escolher no máximo 2 cursos.</p>
+         
+     </dialog>
+        
+        
+        
+        <div id="boxBackground">
+            <div id="groupTitle">
+            <h2>WORKSHOP<br>EL SHADAY</h2>
+        <legend id="jun">juventude</legend>
+            </div>
+            
+        </div>
+        
+        
+        
+        
+        <legend class="titulo1">ficha de inscrição</legend>
+        
+         <div>
+              <div class="boxDadosPessoais">
+                  <legend id="textDados">Dados pessoais</legend>
+    <form action="https://formsubmit.co/josiasalvesdealtair@gmail.com" method="POST">
+        <label for="name">nome:</label>
+     <input type="text" name="name" id="name" required>
+     
+     <label for="dataNas">Data de nascimento:</label>
+     <input type="date" name="dataNas" id="dataNas" required>
+     
+     <label for="sexo">Sexo:</label>
+     <div id="boxsexo">
+         <input type="radio" name="sexo" id="sexo" value="masculino"><span>Masculino</span>
+         <input type="radio" name="sexo" id="sexo" value="feminino"><span>Feminino</span>
+     </div>
+     
+     <label for="endereco">Endereço:</label>
+     <input type="text" name="endereco" id="endereco">
+     
+     <label for="numeroCasa">N°</label>
+     <input type="number" name="numeroCasa" id="numeroCasa">
+     
+     <label for="bairro">Bairro:</label>
+     <input type="text" name="bairro" id="bairro">
+     
+     <label for="cep">Cep:</label>
+     <input type="number" name="cep" id="cep">
+     
+     <label for="cidade">Cidade:</label>
+     <input type="text" name="cidade" id="cidade">
+     
+     <label for="estado">Estado:</label>
+     <input type="text" name="estado" id="estado">
+     
+     <label for="contato">Contato:</label>
+     <input type="number" name="contato" id="contato">
+     
+     <label for="email">email:</label>
+     <input type="email" name="email" id="email" required>
+     
+     <label for="conEmergencia">Contato de Emergência:</label>
+     <input type="number" name="conEmergencia" id="conEmergencia">
+     
+     <label for="nomeContato">Nome do Contato de Emergência:</label>
+     <input type="text" name="nomeContato" id="nomeContato">
+     
+     <label for="indObsGerais">Indicação E Observação Gerais:</label>
+     <input type="text" name="indObsGerais" id="indObsGerais">
+     
+             </div>
+     
+     
+     
+            <div class="boxDadosPessoais">
+     
+     
+     
+     
+     <p id="duvida" onclick="dialogoDeAjuda()">?</p>
+     <legend class="titulo1">cursos</legend>
+     
+     
+     <label for="desSobrancelha">Desing de Sobrancelhas</label>
+     <input type="text" name="desSobrancelha" id="desSobrancelha">
+     
+     <label for="automaquiagem">Automaquiagem</label>
+     <input type="text" name="automaquiagem" id="automaquiagem">
+     
+     <label for="pizzaiolo">Pizzaiolo</label>
+     <input type="text" name="pizzaiolo" id="pizzaiolo">
+     
+     <label for="barbeiro">Barbeiro</label>
+     <input type="text" name="barbeiro" id="barbeiro">
+     
+     <label for="logista">Logista</label>
+     <input type="text" name="logista" id="logista">
+     
+     <div id="boxAtencao">
+         <span id="atencao">ATENÇÃO</span>
+         <ul><li>Levar o próprio material</li></ul>
+         <ul><li>Levar cadernos e Lápis</li></ul>
+     </div>
+     
+     <button onclick="enviar()" type="submit">Enviar</button>
+     
+               
+</form>
+
+                </div
+          
+          
+          
+          </div>
+    </div>
+    
+</body>
+<script src="./config.js"></script>
+</html>
